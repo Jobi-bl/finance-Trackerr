@@ -17,7 +17,6 @@ app.use(
 );
 
 app.use(express.json());
-
 connectDB();
 
 app.use("/api/v1/auth", authRoutes);
